@@ -29,7 +29,7 @@ BOOTAPP=${BOOTAPP:-${APPROOT}/application.jar}
 #JAVA_BIN=${JAVA_HOME}/bin/java
 JAVA_BIN="${JAVA_HOME}/bin/java"
 JVM_OPT="-Xms512m \
-         -Xmx1024m"
+         -Xmx4096m"
 JAVA_OPT="-Dfile.encoding=${CHARSET} \
           -Djava.io.tmpdir=${TMPDIR}"
 
